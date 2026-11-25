@@ -113,12 +113,7 @@ h1 em { display: block; color: #4b6038; font-family: var(--accent-font); font-si
 .matrix-chart i:nth-child(7n) { height: 87%; background: #ddf7a7; }
 .matrix-table { display: grid; gap: .15rem; }
 .matrix-table i { min-height: 1px; border-top: 1px solid #75866d; }
-.project-image--fnc { background: repeating-linear-gradient(132deg, transparent 0 32px, #d6e8ff25 33px 34px, transparent 35px 65px), linear-gradient(145deg, #5a8bc3, #194573 66%, #102c4f); }
-.payment-art { position: relative; display: grid; width: 54%; min-width: 7rem; aspect-ratio: 1.65; align-content: center; gap: .29rem; padding: .7rem 1rem; border: 1px solid #ffffffa0; border-radius: .65rem; background: #f2f8ff; color: #204773; box-shadow: .35rem .6rem 0 #92b6df70, .7rem 1.3rem 2rem #0f2945aa; rotate: -9deg; }
-.payment-mark { width: fit-content; margin-bottom: .3rem; font-size: clamp(1rem, 2.7vw, 1.65rem); font-weight: 800; letter-spacing: -.05em; line-height: 1; }
-.payment-art i { width: 48%; height: .2rem; border-radius: 2rem; background: #8ca9c9; }
-.payment-art i + i { width: 34%; background: #bdd1e8; }
-.payment-check { position: absolute; right: .65rem; bottom: .62rem; display: grid; place-items: center; width: 22%; aspect-ratio: 1; border-radius: 50%; background: #ceeada; color: #235338; font-size: clamp(.8rem, 2vw, 1.35rem); font-weight: 800; }
+.project-image--fnc img { object-position: center top; }
 
 .work-section { padding-top: 1.85rem; border-top: 1px solid var(--line); }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 1.37rem; }

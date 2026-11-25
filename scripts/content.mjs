@@ -21,7 +21,7 @@ export const projects = [
     es: ['Plataforma de contratación pública', 'Una plataforma para buscar licitaciones en portales públicos, revisar pliegos y hacer seguimiento de las oportunidades seleccionadas en un solo lugar.'],
   },
   {
-    id: 'fnc', name: 'Federação Náutica Catarinense',
+    id: 'fnc', name: 'Federação Náutica Catarinense', image: 'fnc.webp', width: 1320, height: 665,
     href: 'https://velasc.org.br/', tags: ['PHP', 'Asaas', 'Pix'],
     pt: ['Site e integração de pagamento', 'Na área do atleta, a filiação gera uma cobrança de anuidade pelo Asaas. A confirmação do pagamento atualiza a situação da filiação.'],
     en: ['Website and payment integration', 'In the athlete portal, membership registration generates an annual fee through Asaas. Payment confirmation updates the membership status.'],

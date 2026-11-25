@@ -28,11 +28,6 @@ function preview(project, base, priority = 'lazy') {
         </div>
       </div>`;
   }
-  if (project.id === 'fnc') {
-    return `<div class="project-image project-image--fnc" aria-hidden="true">
-        <div class="payment-art"><span class="payment-mark">FNC</span><i></i><i></i><span class="payment-check">✓</span></div>
-      </div>`;
-  }
   return `<div class="project-image project-image--${project.id}">
         <img src="${base}assets/img/${project.image}" alt="" width="${project.width}" height="${project.height}" loading="${priority}" decoding="async">
       </div>`;
