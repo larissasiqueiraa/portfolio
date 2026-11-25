@@ -1,202 +1,92 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="0zKNQRGImhDc21jaoIME84ivaAds6Zmp0TI___X3YVc" />
-    <title>Larissa Siqueira | Portfólio</title>
-
-    <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon.png">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="0zKNQRGImhDc21jaoIME84ivaAds6Zmp0TI___X3YVc">
+  <meta name="description" content="Entre em contato com Larissa Siqueira para conversar sobre sites, aplicações web e integrações.">
+  <meta name="theme-color" content="#f5f3eb">
+  <title>Contato — Larissa Siqueira</title>
+  <link rel="alternate" hreflang="pt-BR" href="./contato.html">
+  <link rel="alternate" hreflang="en" href="./en/contato.html">
+  <link rel="alternate" hreflang="es" href="./es/contato.html">
+  <link rel="alternate" hreflang="x-default" href="./contato.html">
+  <link rel="icon" type="image/png" sizes="64x64" href="./assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&amp;family=Manrope:wght@400..800&amp;display=swap">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <script src="./assets/js/script.js" defer></script>
 </head>
-
 <body>
-    <header class="site-header">
-        <div class="container header-container">
-            <a href="index.html" class="logo">
-                <span class="logo-icon">LS</span>
-                <span class="logo-text">
-                    <span class="logo-name">Larissa Siqueira</span>
-                    <span class="logo-tag">Sites profissionais</span>
-                </span>
-            </a>
-
-            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-
-            <nav class="main-nav" id="main-nav">
-                <a href="index.html">Início</a>
-                <a href="index.html#sobre">Sobre</a>
-                <a href="index.html#servicos">Serviços</a>
-                <a href="projetos.html">Projetos</a>
-                <a href="contato.html">Contato</a>
-
-                <a href="https://wa.me/5548984243166?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20um%20orçamento."
-                    target="_blank" class="btn-whatsapp">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    WhatsApp
-                </a>
-            </nav>
-        </div>
-    </header>
-</body>
-<main>
-    <section class="contact-page section">
-        <div class="container">
-
-            <div class="contact-header">
-                <span class="section-tag">Contato</span>
-                <h1 class="section-title">Vamos conversar sobre o seu projeto.</h1>
-                <p class="section-subtext">
-                    Preencha o formulário ou entre em contato pelo WhatsApp para solicitar um orçamento.
-                </p>
-            </div>
-
-            <div class="contact-grid">
-                <!-- formulário -->
-                <div class="contact-form-box">
-                    <h2>Envie sua mensagem</h2>
-                    <div id="form-alert" class="form-alert"></div>
-                    <form action="https://formspree.io/f/xpqodvrk" method="POST" class="contact-form" id="contact-form">
-                        <div class="form-group">
-                            <input type="hidden" name="_subject" value="Novo contato pelo portfólio">
-
-                            <label for="nome">Nome</label>
-                            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">E-mail</label>
-                            <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="empresa">Empresa</label>
-                            <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" rows="6"
-                                placeholder="Me conte um pouco sobre o projeto..." required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn-main" id="form-button">Enviar mensagem</button>
-                    </form>
-                </div>
-
-                <!-- infos -->
-                <div class="contact-info-box">
-                    <h2>Informações de contato</h2>
-                    <p>
-                        Se preferir, você também pode entrar em contato diretamente pelos canais abaixo.
-                    </p>
-
-                    <div class="contact-info-list">
-                        <a href="mailto:larissasiqueira38@gmail.com" class="contact-info-item">
-                            <i class="fa-solid fa-envelope"></i>
-                            <span>E-mail</span>
-                        </a>
-
-                        <a href="https://wa.me/5548984243166?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20um%20orçamento."
-                            target="_blank" class="contact-info-item">
-                            <i class="fa-brands fa-whatsapp"></i>
-                            <span>WhatsApp</span>
-                        </a>
-
-                        <a href="https://linkedin.com/in/larissa-siqueiraa/" target="_blank" class="contact-info-item">
-                            <i class="fa-brands fa-linkedin"></i>
-                            <span>LinkedIn</span>
-                        </a>
-                    </div>
-
-                    <div class="contact-highlight">
-                        <h3>Atendimento</h3>
-                        <p>
-                            Respondo o mais rápido possível para entender o que você precisa e indicar a melhor solução
-                            para o seu
-                            site.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-</main>
-
-<footer class="site-footer">
-    <div class="container">
-        <div class="row gy-4">
-
-            <!-- esquerda -->
-            <div class="col-md-4">
-                <h4 class="footer-title">Larissa Siqueira</h4>
-                <p class="footer-text">
-                    Criação de sites profissionais e modernos, com foco em design, clareza e experiência.
-                </p>
-            </div>
-
-            <!-- navegação -->
-            <div class="col-md-4">
-                <h5 class="footer-subtitle">Navegação</h5>
-                <ul class="footer-links">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </div>
-
-            <!-- contato -->
-            <div class="col-md-4">
-                <h5 class="footer-subtitle">Contato</h5>
-
-                <div class="footer-contact">
-                    <a href="mailto:larissasiqueira38@gmail.com">
-                        <i class="fa-solid fa-envelope"></i>
-                        E-mail
-                    </a>
-
-                    <a href="https://wa.me/5548984243166?text=Olá!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20um%20orçamento."
-                        target="_blank">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        WhatsApp
-                    </a>
-
-                    <a href="https://linkedin.com/in/larissa-siqueiraa/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                        LinkedIn
-                    </a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
-            <p>© 2026 Larissa Siqueira. Todos os direitos reservados.</p>
-        </div>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="topbar wrap">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">LS<span>.</span></span> Larissa Siqueira</a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="index.html#sobre">Sobre</a>
+        <a href="contato.html" aria-current="page">Contato</a>
+      </nav>
+      <nav class="languages" aria-label="Idioma do site">
+        <a href="./contato.html" hreflang="pt-BR" lang="pt-BR" aria-label="Português (Brasil)" title="Português (Brasil)" aria-current="true"><span class="flag flag--pt" aria-hidden="true"></span><span aria-hidden="true">PT</span></a>
+        <a href="./en/contato.html" hreflang="en" lang="en" aria-label="English" title="English"><span class="flag flag--en" aria-hidden="true"></span><span aria-hidden="true">EN</span></a>
+        <a href="./es/contato.html" hreflang="es" lang="es" aria-label="Español" title="Español"><span class="flag flag--es" aria-hidden="true"></span><span aria-hidden="true">ES</span></a>
+      </nav>
     </div>
-</footer>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- JS -->
-<script src="assets/js/script.js"></script>
-
+  </header>
+  <main id="conteudo" tabindex="-1" class="page page--contact">
+  <header class="page-heading wrap">
+    <h1>Vamos <em>conversar?</em></h1>
+    <p>Me conte o que você quer colocar no ar, melhorar ou automatizar. Se já tiver um site ou uma referência, pode incluir o link na mensagem.</p>
+  </header>
+  <div class="contact-grid wrap">
+    <section class="contact-form-panel">
+      <h2>Envie uma mensagem</h2>
+      <form id="contact-form" action="https://formspree.io/f/xpqodvrk" method="post"
+        data-sending="Enviando…" data-success="Mensagem enviada. Vou responder pelo e-mail informado." data-error="Não foi possível enviar. Tente novamente ou fale comigo por e-mail."
+        data-offline="Falha na conexão. Confira sua internet e tente novamente." data-required="Preencha este campo." data-invalid-email="Informe um e-mail válido.">
+        <input type="hidden" name="_subject" value="Novo contato pelo portfólio">
+        <div class="form-fields">
+          <div class="form-field">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" autocomplete="name" placeholder="Seu nome" required>
+          </div>
+          <div class="form-field">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="voce@exemplo.com" required>
+          </div>
+          <div class="form-field form-field--wide">
+            <label for="empresa">Empresa <span>(opcional)</span></label>
+            <input id="empresa" name="empresa" autocomplete="organization" placeholder="Nome da empresa">
+          </div>
+          <div class="form-field form-field--wide">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="O que você quer resolver com o projeto?" required></textarea>
+          </div>
+        </div>
+        <button class="button" type="submit"><span data-submit-label>Enviar mensagem</span> <span aria-hidden="true">↗</span></button>
+        <p class="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </form>
+    </section>
+    <aside class="contact-direct">
+      <h2>Outros canais</h2>
+      <ul>
+        <li><a href="mailto:larissasiqueira38@gmail.com"><span>E-mail<small>larissasiqueira38@gmail.com</small></span> <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://wa.me/5548984243166?text=Ol%C3%A1%2C%20Larissa!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener noreferrer"><span>WhatsApp<small>Prefere conversar por mensagem?</small></span> <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://linkedin.com/in/larissa-siqueiraa/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span> <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </aside>
+  </div>
+  </main>
+  <footer class="site-footer wrap">
+    <p>© 2026 Larissa Siqueira</p>
+    <div class="footer-links">
+      <a href="mailto:larissasiqueira38@gmail.com">E-mail <span aria-hidden="true">↗</span></a>
+      <a href="https://wa.me/5548984243166?text=Ol%C3%A1%2C%20Larissa!%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+      <a href="https://linkedin.com/in/larissa-siqueiraa/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
 </body>
-
 </html>
